@@ -1,1 +1,0 @@
-echo sdk.dir=$ANDROID_HOME >local.properties

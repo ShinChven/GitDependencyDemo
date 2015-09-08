@@ -5,6 +5,20 @@
 ##  git clone start up script for UN*X
 ##
 ##############################################################################
+#清理所有包
 rm -rf gitlibs
+#获取最新版本
 git clone https://github.com/ShinChven/CommonLib.git gitlibs/commonlib
+gitlibs/commonlib git checkout
+#删除不需要的文件
 rm -rf gitlibs/commonlib/.git
+rm -rf gitlibs/commonlib/example
+rm -rf gitlibs/commonlib/gradle
+rm -rf gitlibs/commonlib/.gitignore
+rm -rf gitlibs/commonlib/build.gradle
+rm -rf gitlibs/commonlib/gradle.properties
+rm -rf gitlibs/commonlib/gradlew
+rm -rf gitlibs/commonlib/gradlew.bat
+rm -rf gitlibs/commonlib/localproperties.sh
+rm -rf gitlibs/commonlib/README.MD
+rm -rf gitlibs/commonlib/settings.gradle
