@@ -4,7 +4,6 @@
 /.idea/libraries
 .DS_Store
 /build
-gitlibs*
 ### Gradle template
 .gradle
 build/
@@ -91,4 +90,21 @@ proguard/
 
 # Android Studio Navigation editor temp files
 .navigation/
+
+gitlibs/commonlib/example
+gitlibs/commonlib/gradle
+gitlibs/commonlib/.gitignore
+gitlibs/commonlib/gradle.properties
+gitlibs/commonlib/build.gradle
+gitlibs/commonlib/gradlew
+gitlibs/commonlib/gradlew.bat
+gitlibs/commonlib/localproperties.sh
+gitlibs/commonlib/README.MD
+gitlibs/commonlib/settings.gradle
+gitlibs/commonlib/CommonLib/build
+gitlibs/commonlib/.git
+
+
+
+
 
