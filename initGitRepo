@@ -7,3 +7,4 @@
 ##############################################################################
 rm -rf gitlibs
 git clone https://github.com/ShinChven/CommonLib.git gitlibs/commonlib
+rm -rf gitlibs/commonlib/.git
