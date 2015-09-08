@@ -92,17 +92,17 @@ proguard/
 .navigation/
 
 gitlibs/commonlib/example
-gitlibs/commonlib/gradle
-gitlibs/commonlib/.gitignore
-gitlibs/commonlib/gradle.properties
-gitlibs/commonlib/build.gradle
-gitlibs/commonlib/gradlew
-gitlibs/commonlib/gradlew.bat
-gitlibs/commonlib/localproperties.sh
-gitlibs/commonlib/README.MD
-gitlibs/commonlib/settings.gradle
-gitlibs/commonlib/CommonLib/build
-gitlibs/commonlib/.git
+gitlibs/*/gradle
+gitlibs/*/.gitignore
+gitlibs/*/gradle.properties
+gitlibs/*/build.gradle
+gitlibs/*/gradlew
+gitlibs/*/gradlew.bat
+gitlibs/*/localproperties.sh
+gitlibs/*/README.MD
+gitlibs/*/settings.gradle
+
+
 
 
 
