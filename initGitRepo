@@ -9,7 +9,6 @@
 rm -rf gitlibs
 #获取最新版本
 git clone https://github.com/ShinChven/CommonLib.git gitlibs/commonlib
-gitlibs/commonlib git checkout
 #删除不需要的文件
 rm -rf gitlibs/commonlib/.git
 rm -rf gitlibs/commonlib/example
